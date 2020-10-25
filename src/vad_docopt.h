@@ -28,7 +28,7 @@ const char help_message[] =
 "VAD - Voice Activity Detector\n"
 "\n"
 "Usage:\n"
-"   vad [options] -i <input-wav> -o <output-vad> [-w <output-wav>]\n"
+"   vad [options] -i input-wav -o output-vad [-w output-wav]\n"
 "   vad (-h | --help)\n"
 "   vad --version\n"
 "\n"
@@ -43,7 +43,7 @@ const char help_message[] =
 
 const char usage_pattern[] =
 "Usage:\n"
-"   vad [options] -i <input-wav> -o <output-vad> [-w <output-wav>]\n"
+"   vad [options] -i input-wav -o output-vad [-w output-wav]\n"
 "   vad (-h | --help)\n"
 "   vad --version";
 

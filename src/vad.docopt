@@ -1,7 +1,7 @@
 VAD - Voice Activity Detector
 
 Usage:
-   vad [options] -i <input-wav> -o <output-vad> [-w <output-wav>]
+   vad [options] -i input-wav -o output-vad [-w output-wav] [--alpha1=<a1>] [--alpha2=<a2>]...
    vad (-h | --help)
    vad --version
 
@@ -12,3 +12,4 @@ Options:
    -v, --verbose  Show debug information
    -h, --help     Show this screen
    --version      Show the version of the project
+

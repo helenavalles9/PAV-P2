@@ -1,5 +1,3 @@
-#!/usr/bin/python3 -B
-
 """Pythonic command-line interface parser that will make you smile.
 
  * http://docopt.org

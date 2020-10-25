@@ -88,7 +88,6 @@ sub print_statistics {
 	my $SS = 0;
 	my $VS = 0;
 	my $SV = 0;
-	my $eps = 1.e-24;
 
     my $stat = shift;
 	my $filename = shift;
@@ -109,16 +108,16 @@ sub print_statistics {
 		}
     }
 
-	my $recaV = $VV / ($eps + $VV + $VS) * 100;
-	my $recaS = $SS / ($eps + $SS + $SV) * 100;
-	my $precV = $VV / ($eps + $VV + $SV) * 100;
-	my $precS = $SS / ($eps + $SS + $VS) * 100;
+	my $recaV = $VV / ($VV + $VS) * 100;
+	my $recaS = $SS / ($SS + $SV) * 100;
+	my $precV = $VV / ($VV + $SV) * 100;
+	my $precS = $SS / ($SS + $VS) * 100;
 	
 	my $beta = 2.;
-	my $F_V = (1. + $beta ** 2) * $recaV * $precV / ($eps + $recaV + $beta ** 2 * $precV);
+	my $F_V = (1. + $beta ** 2) * $recaV * $precV / ($recaV + $beta ** 2 * $precV);
 	
 	$beta = 1. / 2.;
-	my $F_S = (1. + $beta ** 2) * $recaS * $precS / ($eps + $recaS + $beta ** 2 * $precS);
+	my $F_S = (1. + $beta ** 2) * $recaS * $precS / ($recaS + $beta ** 2 * $precS);
 
 	printf "Recall V:%6.2f/%-6.2f%6.2f%%   Precision V:%6.2f/%-6.2f%6.2f%%   F-score V (2)  :%6.2f%%\n", 
 		$VV, $VV + $VS, $recaV, $VV, $VV + $SV, $precV, $F_V;
