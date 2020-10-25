@@ -105,18 +105,18 @@ Ejercicios
   continuación, una captura de `wavesurfer` en la que se vea con claridad la señal temporal, el contorno de
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
 
-<img src="Captura1.png" width="640" align="center">
+<img src="Captura1.png" align="center">
 
 
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
 
 	* Incremento del nivel potencia en dB, respecto al nivel correspondiente al silencio inicial, para
-	  estar seguros de que un segmento de señal se corresponde con voz. `**50 dB es voz**`
+	  estar seguros de que un segmento de señal se corresponde con voz. `50 dB es voz`
 
-	* Duración mínima razonable de los segmentos de voz y silencio. `**1 segundo**`
+	* Duración mínima razonable de los segmentos de voz y silencio. `1 segundo`
 
 	* ¿Es capaz de sacar alguna conclusión a partir de la evolución de la tasa de cruces por cero?
-	`**La tasa de cruces por cero es entre 600 y 1000. Si la potencia pasa de 50 dB es voz.**`
+	`La tasa de cruces por cero es entre 600 y 1000. Si la potencia pasa de 50 dB es voz.`
 
 ### Desarrollo del detector de actividad vocal
 
@@ -126,18 +126,18 @@ Ejercicios
 - Inserte una gráfica en la que se vea con claridad la señal temporal, el etiquetado manual y la detección
   automática conseguida para el fichero grabado al efecto. 
 
-<img src="Captura2.png" width="640" align="center">
+<img src="Captura2.png" align="center">
 
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
-`**En el .vad no se detectan bien los fragmentos mas cortos y incluye nuevos fragmentos de silencio.**`
+`En el .vad no se detectan bien los fragmentos mas cortos y incluye nuevos fragmentos de silencio.`
 
 - Evalúe los resultados sobre la base de datos `db.v4` con el script `vad_evaluation.pl` e inserte a 
   continuación las tasas de sensibilidad (*recall*) y precisión para el conjunto de la base de datos (sólo
   el resumen).
   
-<img src="Captura3.png" width="640" align="center">
+<img src="Captura3.png" align="center">
 
-`**Nos da TOTAL: 93.434%. El resultado es una F-score de El sistema es mas fiable en segmentos de voz(F-score V (2):94.94%) que en los de silencio(F-score S (1/2): 91.95%). Podriamos mejorar la detección teniendo en cuenta parametros como la amplitud o la tasa de cruces por cero.**`
+`Nos da TOTAL: 93.434%. El resultado es una F-score de El sistema es mas fiable en segmentos de voz(F-score V (2):94.94%) que en los de silencio(F-score S (1/2): 91.95%). Podriamos mejorar la detección teniendo en cuenta parametros como la amplitud o la tasa de cruces por cero.`
 
 ### Trabajos de ampliación
 
