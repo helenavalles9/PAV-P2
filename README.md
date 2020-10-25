@@ -106,6 +106,8 @@ Ejercicios
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
 
 <img src="Captura1.png">
+![](Captura1.PNG)
+
 
 
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
@@ -127,6 +129,10 @@ Ejercicios
   automática conseguida para el fichero grabado al efecto. 
 
 <img src="Captura2.png">
+![](Captura2.PNG)
+
+
+
 
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
 `En el .vad no se detectan bien los fragmentos mas cortos y incluye nuevos fragmentos de silencio.`
@@ -136,6 +142,7 @@ Ejercicios
   el resumen).
   
 <img src="Captura3.png">
+![](Captura3.PNG)
 
 `Nos da TOTAL: 93.434%. El resultado es una F-score de El sistema es mas fiable en segmentos de voz(F-score V (2):94.94%) que en los de silencio(F-score S (1/2): 91.95%). Podriamos mejorar la detección teniendo en cuenta parametros como la amplitud o la tasa de cruces por cero.`
 
