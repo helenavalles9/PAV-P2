@@ -106,6 +106,10 @@ Ejercicios
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
 
 <img src="Captura1.PNG">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6df65b96612085713d56eb8905281faf40f3a3cd
 
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
 
@@ -126,7 +130,10 @@ Ejercicios
   automática conseguida para el fichero grabado al efecto. 
 
 <img src="Captura2.PNG">
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6df65b96612085713d56eb8905281faf40f3a3cd
 
 
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
@@ -138,7 +145,10 @@ Ejercicios
   
   
 <img src="Captura3.PNG">
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6df65b96612085713d56eb8905281faf40f3a3cd
 
 `Nos da TOTAL: 93.434%. El resultado es una F-score de El sistema es mas fiable en segmentos de voz(F-score V (2):94.94%) que en los de silencio(F-score S (1/2): 91.95%). Podriamos mejorar la detección teniendo en cuenta parametros como la amplitud o la tasa de cruces por cero.`
 
