@@ -130,7 +130,6 @@ Ejercicios
 
 <img src="Captura2.PNG">
 
-![Captura 2](https://github.com/helenavalles9/PAV-P2/blob/valles_bedmar_escude/Captura2.PNG)
 
 
 
@@ -143,7 +142,7 @@ Ejercicios
   el resumen).
   
 <img src="Captura3.PNG">
-![Captura 3](https://github.com/helenavalles9/PAV-P2/blob/valles_bedmar_escude/Captura3.PNG)
+
 
 
 `Nos da TOTAL: 93.434%. El resultado es una F-score de El sistema es mas fiable en segmentos de voz(F-score V (2):94.94%) que en los de silencio(F-score S (1/2): 91.95%). Podriamos mejorar la detección teniendo en cuenta parametros como la amplitud o la tasa de cruces por cero.`
