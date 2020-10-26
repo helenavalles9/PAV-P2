@@ -105,10 +105,7 @@ Ejercicios
   continuación, una captura de `wavesurfer` en la que se vea con claridad la señal temporal, el contorno de
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
 
-
-![](Captura1.PNG)
-
-
+<img src="Captura1.PNG">
 
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
 
@@ -132,8 +129,6 @@ Ejercicios
 
 
 
-
-
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
 `En el .vad no se detectan bien los fragmentos mas cortos y incluye nuevos fragmentos de silencio.`
 
@@ -141,8 +136,8 @@ Ejercicios
   continuación las tasas de sensibilidad (*recall*) y precisión para el conjunto de la base de datos (sólo
   el resumen).
   
+  
 <img src="Captura3.PNG">
-
 
 
 `Nos da TOTAL: 93.434%. El resultado es una F-score de El sistema es mas fiable en segmentos de voz(F-score V (2):94.94%) que en los de silencio(F-score S (1/2): 91.95%). Podriamos mejorar la detección teniendo en cuenta parametros como la amplitud o la tasa de cruces por cero.`
